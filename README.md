@@ -4,7 +4,20 @@ This is a McCourt Digital project, working with Shawn Thomas, to make a homepage
 
 We are going to host this somewhere, eventually -- still need to figure that out.
 
-### WSL instructions
+### AWS instructions
+
+I followed [this tutorial](https://phoenixnap.com/kb/how-to-install-lamp-in-ubuntu).  I didn't install any PHP modules, but we may need to think about that.
+
+For the Amazon security group, I activated http and https -- I can see the Apache server if
+I use http but not https.  Need to figure that out.
+
+It does seem to be working, though.  I have the ability to access it from the internet.
+
+### SSL instructions
+
+This seems useful https://www.freecodecamp.org/news/free-https-c051ca570324/
+
+### WSL local instructions
 I installed stuff according to [these instructions](https://chabolla.dev/wamp-lamp-stack-install-on-windows/), which were very helpful.  Once everything is active,
 you should be able to confirm by checking
 
